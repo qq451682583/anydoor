@@ -1,0 +1,23 @@
+{
+    "name": "anydoor",
+    "version": "0.0.1",
+    "main": "build/index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qq451682583/anydoor.git"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.11.1",
+        "pre-commit": "^1.2.2"
+    }
+}
+
